@@ -66,10 +66,8 @@ A neural network was trained in PyTorch to classify each of the superpixels.
 
 Network training definition :
 
-- A standard VGG16 network with pretrained Imagenet weights was loaded.
+- A UNet classifier was loaded.
 
-- The last layer was removed a few linear layers were added to enable transfer learning.
-
-- Cross entropy loss was as a loss function. Stochastic gradient descent with momentum was used as the optimizer.
+- Cross entropy loss was as a loss function. Adam with momentum was used as the optimizer.
 
 The trained neural network then takes each superpixel patch as an input and outputs a class ID for it. This can be used to create a semantic segmentation of the input image.
