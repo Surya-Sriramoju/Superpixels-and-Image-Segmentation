@@ -73,4 +73,3 @@ Network training definition :
 - Cross entropy loss was as a loss function. Stochastic gradient descent with momentum was used as the optimizer.
 
 The trained neural network then takes each superpixel patch as an input and outputs a class ID for it. This can be used to create a semantic segmentation of the input image.
-# Superpixels-and-Image-Segmentation
