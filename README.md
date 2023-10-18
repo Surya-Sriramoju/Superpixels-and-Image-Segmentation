@@ -14,7 +14,7 @@ We implement superpixel clustering in the following ways :
 
 <p float="left">
   <img src="imgs/Kmeans_1.png" width="50%" />
-  <img src="assets/rgbxy.png" width="50%" /> 
+  <img src="imgs/Kmeans_2.png" width="50%" /> 
  />
   <p float="centre">
   <em> a) RGBXY clustering : Pixelwise class plot b) RGBXY clustering : Superpixel plot</em>
@@ -25,7 +25,7 @@ We implement superpixel clustering in the following ways :
  4. Implementing the [SLIC algorithm](https://www.iro.umontreal.ca/~mignotte/IFT6150/Articles/SLIC_Superpixels.pdf) for improved superpixel generation.
  
  <p float="left">
-  <img src="imgs/slic_1" width="32%" />
+  <img src="imgs/slic_1.png" width="32%" />
   <img src="imgs/slic_2.png" width="32%" />
   <p float="centre">
   <em> a) SLIC clustering: Pixelwise class plot c) SLIC clustering: Superpixel plot</em>
